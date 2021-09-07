@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: .9rem;
+    
+}
+
+
+header {
+    margin-bottom: 1em;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.banner {
+    background: url(./banner.png);
+    background-size: 100% 100%;
+    padding: 5em;
+    object-fit: contain;
+    border-radius: .5em;
+    margin-bottom: 3rem;
+    padding-bottom: 8em;
+}
+
+.banner> p {
+    color: white;
+    padding-bottom: 1.5em;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.btn {
+    padding: .8em 2em;
+    border-radius: .4em;
+    display: inline-block;
+    margin-right: 1rem;
+    background-color: aliceblue;
+    color: rgb(9, 107, 213);
+    font-weight: bold;
+}
+
+.signup-btn {
+    padding: .8em 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(9, 107, 213);
+    color: white;
+    font-weight: bold;
+}
+
+article> div {
+    text-align: left;
+    font-size: .9rem;
+    justify-items: flex-start;
+}
+
+.btn.blue {
+    color: white;
+    background: rgb(9, 107, 213);
+}
+
+.justify, 
+a {
+    color: rgb(116, 110, 110);
+}
